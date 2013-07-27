@@ -1,0 +1,9 @@
+8 24
+xxxxxxxxxxxxxxxxxxxxxxxx
+--------------------xxxx
+-xxxxxxxxxx---xxxxxxxxxx
+-xxxx--xx-----xx-x-----x
+-xxxx--xxxxxx---x--xxx--
+---xxx----xxxxx---xxxx--
+-xxxxxxxxxxxxxxxx-xxxxxx
+*xxxxxxxxxxxx$----xxxxxxE

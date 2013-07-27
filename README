@@ -1,0 +1,38 @@
+homework 2 - maze solver
+
+jay hendren
+
+there are two subdirectories here: hw2 and hw2_extra_credit
+
+Each one contains a header file and an implementation file: maze.h
+and maze.cpp.
+
+"hw2" solves the maze by reading the maze into a 1-dimensional array
+and calling a recursive solving algorithm per the homework handout.
+
+"hw2_extra_credit" is my solution to the extra-credit portion of
+the assignment. It finds a shortest solution to the maze by reading
+the maze into a 2-dimensional array and using a breadth-first search
+algorithm which is not recursive and has a smaller memory overhead
+than the other algorithm. The code is a bit messy but there are
+plenty of comments, so hopefully it's not too unreadable. This
+algorithm does not print a path if it cannot find a solution to the
+maze.
+
+Both algorithms mark the solution to the maze with the character
+'v' representing the path as suggested in the homework handout.
+Both .cpp files use the maze::maze() constructor function to read
+a file called "Maze.txt" into an array. Both use the maze::init()
+function to kick off the maze solving process; other than this
+function, the names of my functions and member variables differ
+from what was suggested in the handout. I have tested both algorithms
+on a number of mazes ranging in size from 2x1 to 1000x1000.
+
+Both assignments have been compiled and run using the provided
+testing script ("mainProgram.cxx") using GCC 4.x on Mac OSX, Debian
+Linux, and Red Hat Enterprise Linux.
+
+I compiled and ran the maze solving programs using the following
+command:
+
+    g++ maze.cpp mainProgram.cxx && ./a.out 

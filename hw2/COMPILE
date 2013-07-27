@@ -1,0 +1,9 @@
+g++ -Wall -g maze.cpp -o myawesomemaze.o
+g++ -Wall -g maze.cpp -o myawesomemaze.o && ./myawesomemaze.o
+
+-g flag for debugging symbols
+
+g++ -Wall maze.cpp mainProgram.cxx -o myawesomemaze.o && ./myawesomemaze.o
+
+g++ -Wall maze.cpp mainProgram.cxx -o myawesomemaze.o && for m in mazes/Maze*; do rm Maze.txt; cp ${m} Maze.txt; ./myawesomemaze.o; done
+
